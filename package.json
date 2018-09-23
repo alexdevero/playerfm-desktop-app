@@ -44,11 +44,11 @@
   },
   "main": "app.js",
   "scripts": {
-    "package:linux": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=linux --icon=assets/khan-academy-logo-new",
-    "package:macappstore": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=mas --icon=assets/khan-academy-logo-new",
-    "package:osx": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=darwin --icon=assets/khan-academy-logo-new",
-    "package:win": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=win32 --icon=assets/khan-academy-logo-new",
-    "package:all": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=all --icon=assets/khan-academy-logo-new",
+    "package:linux": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=linux --icon=assets/playerfm-logo",
+    "package:macappstore": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=mas --icon=assets/playerfm-logo",
+    "package:osx": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=darwin --icon=assets/playerfm-logo",
+    "package:win": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=win32 --icon=assets/playerfm-logo",
+    "package:all": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=all --icon=assets/playerfm-logo",
     "start": "cross-env NODE_ENV=dev electron app.js"
   },
   "devDependencies": {
