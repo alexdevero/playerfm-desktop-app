@@ -1,0 +1,59 @@
+{
+  "name": "playerfm-desktop-app",
+  "version": "0.0.1",
+  "description": "Desktop app for PlayerFM build with electron.",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdevero/playerfm-desktop-app.git"
+  },
+  "homepage": "https://github.com/alexdevero/playerfm-desktop-app#readme",
+  "bugs": {
+    "url": "https://github.com/alexdevero/playerfm-desktop-app/issues"
+  },
+  "author": {
+    "name": "Alex Devero",
+    "url": "https://alexdevero.com/"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "app",
+    "application",
+    "desktop",
+    "desktop-app",
+    "desktop-application",
+    "electron",
+    "electron-app",
+    "entertainment",
+    "javascript",
+    "player",
+    "podcast",
+    "podcasts"
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.0.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "package:linux": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=linux --icon=assets/khan-academy-logo-new",
+    "package:macappstore": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=mas --icon=assets/khan-academy-logo-new",
+    "package:osx": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=darwin --icon=assets/khan-academy-logo-new",
+    "package:win": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=win32 --icon=assets/khan-academy-logo-new",
+    "package:all": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --platform=all --icon=assets/khan-academy-logo-new",
+    "start": "cross-env NODE_ENV=dev electron app.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "electron": "^3.0.0",
+    "electron-packager": "^12.1.2"
+  }
+}
