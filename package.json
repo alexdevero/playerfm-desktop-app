@@ -1,6 +1,6 @@
 {
   "name": "playerfm-desktop-app",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Desktop app for PlayerFM build with electron.",
   "license": "MIT",
   "private": false,
