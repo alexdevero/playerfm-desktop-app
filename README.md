@@ -5,14 +5,27 @@
 </p>
 
 <p align="center">
-  <a href="https://david-dm.org/alexdevero/playerfm-desktop-app"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/playerfm-desktop-app.svg?style=flat"></a>
-  <a href="https://david-dm.org/alexdevero/playerfm-desktop-app?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/playerfm-desktop-app/dev-status.svg?style=flat"></a>
-  <a href="http://opensource.org/licenses/MIT"><img alt="MIT License" src="https://img.shields.io/npm/l/express.svg"></a>
+  <!-- <a href="https://david-dm.org/alexdevero/alex-devero-website">
+    <img alt="Dependency Status" src="https://badgen.net/david/dep/alexdevero/playerfm-desktop-app" />
+  </a> -->
+  <a href="https://david-dm.org/alexdevero/alex-devero-website?type=dev">
+    <img alt="devDependency Status" src="https://badgen.net/david/dev/alexdevero/playerfm-desktop-app" />
+  </a>
+  <a href="http://opensource.org/licenses/MIT">
+    <img alt="Built with Atom" src="https://badgen.net/badge//electron?icon=atom">
+  </a>
+  <a href="http://opensource.org/licenses/MIT">
+    <img alt="MIT License" src="https://badgen.net/badge/license/MIT/Green">
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://alexdevero.com"><img alt="Built by DEVERO" src="https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320"></a>
-  <a href="https://github.com/alexdevero/playerfm-desktop-app/releases"><img alt="Current release" src="https://img.shields.io/github/release/alexdevero/playerfm-desktop-app.svg"></a>
+  <a href="https://alexdevero.com">
+    <img alt="Built by DEVERO" src="https://badgen.net/badge/build%20by/DEVERO/d30320" />
+  </a>
+  <a href="https://github.com/alexdevero/playerfm-desktop-app/releases">
+    <img alt="Current release" src="https://badgen.net/github/release/alexdevero/playerfm-desktop-app">
+  </a>
 </p>
 
 # PlayerFM desktop app
