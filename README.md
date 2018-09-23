@@ -19,11 +19,11 @@
 
 Desktop app for PlayerFM build with electron.
 
-<!-- <p align="center">
+<p align="center">
   <img src="https://cdn.rawgit.com/alexdevero/playerfm-desktop-app/master/docs/playerfm-desktop-app-screen.png" width="800">
   <br>
   <br>
-</p> -->
+</p>
 
 ### Table of contents
 
